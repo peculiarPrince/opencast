@@ -93,9 +93,8 @@ Finally, enable the authentication provider by uncommenting:
 <sec:authentication-provider ref="ldapAuthProvider" />
 ```
 
-
-Step 2: LDAP Service Configuration
-----------------------------------
+LDAP Service Configuration
+--------------------------
 
 Make a copy of the file `etc/org.opencastproject.userdirectory.ldap.cfg.template` in the same directory and
 rename it as:

@@ -2,16 +2,11 @@
 
 The [Brightspace](https://www.d2l.com/) User Provider enriches Opencast users with a
 set of roles made up of the user's membership in Brightspace courses, of the form
-ROLE_courseID. For example, an Opencast user who is also a Brightspace user and a
+`ROLE_courseID`. For example, an Opencast user who is also a Brightspace user and a
 member of the Brightspace course `myCourseID` will be granted the Opencast role `ROLE_myCourseID`.
 
 
-### Requirements
-
-<!-- _This section has been left blank! It should be filled with the necessary info, or removed entirely! -->
-
-### Step 1 
-<!-- _Prefer to add titles to steps as in "Step 1: Do this" -->
+### Step 1: Configure the User Provider
 
 To enable the Brightspace User Provider, copy and rename the bundled configuration
 template from
@@ -41,8 +36,13 @@ org.opencastproject.userdirectory.brightspace.application.key=application-key
 #org.opencastproject.userdirectory.brightspace.cache.expiration=60
 ```
 
+<<<<<<< HEAD
 ### Step 2
 <!-- _Prefer to add titles to steps as in "Step 2: Do this" -->
+=======
+### Step 2: Verify Granted Access
+
+>>>>>>> upstream/develop
 Verify that the Brightspace User Provider starts up with the correct Brightspace URL by looking
 for a log entry like this:
 
