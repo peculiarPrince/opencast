@@ -36,18 +36,8 @@ org.opencastproject.userdirectory.brightspace.application.key=application-key
 #org.opencastproject.userdirectory.brightspace.cache.expiration=60
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Step 2
-<!-- _Prefer to add titles to steps as in "Step 2: Do this" -->
-=======
 ### Step 2: Verify Granted Access
 
->>>>>>> upstream/develop
-=======
-### Step 2: Verify Granted Access
-
->>>>>>> e829236b2cadadd340d65c10aa374f2f2f334c91
 Verify that the Brightspace User Provider starts up with the correct Brightspace URL by looking
 for a log entry like this:
 
